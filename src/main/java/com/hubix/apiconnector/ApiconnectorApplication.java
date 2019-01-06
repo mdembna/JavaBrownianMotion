@@ -14,9 +14,7 @@ public class ApiconnectorApplication {
 
         RealTimeStockService realTimeStockService = new RealTimeStockService();
 
-        realTimeStockService.runAnalysis("XBT");
-
-
+        realTimeStockService.runAnalysis("XBT"); // root symbol of crypto; pass as argument for output info
     }
 }
 
